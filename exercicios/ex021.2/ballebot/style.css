@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik+Beastly&family=Sarala&display=swap');
+
+body{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    border: 0px;
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+}
+
+
+
+.cabecalho{
+    padding: 15px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    border-bottom: solid 1px;
+    
+}
+
+.menucabecalho{
+    display: flex;
+    gap: 32px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.primeiradiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  padding-left: 70px;
+}
+
+
+.titulomain{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 0px;
+    
+}
+
+.subtitulomain{
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+button{
+    
+    border-radius: 10px;
+    width: 100px;
+    height: 34px;
+    background-color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+}
+
+
+.segundadiv{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    
+    
+}
+
+
+.segsubtitulo{
+    display: flex;
+    justify-content: center;
+    border-top: 0.4px solid #FFF2E7;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    padding-top: 146px;
+    
+}
+
+.paragrafomain{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sarala', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+
+.fotoballe{
+    display: flex;
+    justify-content: right;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    max-height: 40px;
+    padding:20px;
+    border-top: solid 1px;
+}
