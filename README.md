@@ -1,2 +1,2 @@
 # html-css
- Curso de HTML5 e CSS3 do curso em video do professor Guanabara.
+ Curso de HTML5 e CSS3 do curso Estudonauta do professor Guanabara.
