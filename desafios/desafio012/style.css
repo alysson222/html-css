@@ -16,10 +16,11 @@
 header{
     background-color: black;
     height: 230px;
-    padding-bottom: 60px;
+   
 
 }
 header h1{
+    font-variant: small-caps;
     padding-top: 60px;
     font-family: var(--fonte-destaque);
     color: white;
