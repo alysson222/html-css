@@ -16,6 +16,8 @@
 header{
     background-color: black;
     height: 230px;
+    padding-bottom: 60px;
+
 }
 header h1{
     padding-top: 60px;
