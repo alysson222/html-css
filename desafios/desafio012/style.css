@@ -4,7 +4,13 @@
 
 *{
     margin: 0px;
+    padding: 0px;
 }
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(254, 255, 255);
+} 
 
 :root{
     --fonte-padrao: verdana, helvetica, sans-serif;
@@ -15,10 +21,8 @@
 
 header{
     background-color: black;
-    height: 230px;
-   
-
 }
+
 header h1{
     font-variant: small-caps;
     padding-top: 60px;
@@ -26,6 +30,14 @@ header h1{
     color: white;
     font-size: 85px ;
     text-align: center;
+}
+
+header h3{
+    font-family: var(--fonte-padrao);
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
 }
 
 body a{
@@ -38,21 +50,15 @@ body a:hover{
     text-decoration: underline;
 }
 
-header h3{
-    font-family: var(--fonte-padrao);
-    font-weight: 100;
-    color: white;
-    text-align: center;
-}
+
 
 main section{
     font-family: var(--fonte-texto);
-    font-size: 2em;
-    
-    padding: 40px;
-    
-    
-    
+    font-size: 1.3em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 3vh;
+    line-height: 2em;
 }
 
 main section>div{
@@ -69,6 +75,14 @@ main .imagem {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    
+}
+
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 260px;
+    color: white;
+    padding-left: 10px;
 }
 
 main .imagemdois {
@@ -77,6 +91,13 @@ main .imagemdois {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.imagemdois > p{
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 260px;
+    color: white;
+    padding-left: 10px;
 }
 
 footer{
