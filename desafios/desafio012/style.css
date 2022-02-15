@@ -28,7 +28,8 @@ header h1{
     padding-top: 60px;
     font-family: var(--fonte-destaque);
     color: white;
-    font-size: 85px ;
+    font-size: 10vh;
+    font-size: 10vw;
     text-align: center;
 }
 
@@ -38,6 +39,8 @@ header h3{
     color: white;
     text-align: center;
     padding-bottom: 60px;
+    font-size: 2vh;
+    font-size: 2vw;
 }
 
 body a{
@@ -54,11 +57,12 @@ body a:hover{
 
 main section{
     font-family: var(--fonte-texto);
-    font-size: 1.3em;
+    font-size: 25px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 3vh;
     line-height: 2em;
+    font-size: 4vw;
 }
 
 main section>div{
@@ -80,9 +84,10 @@ main .imagem {
 
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.637);
-    width: 260px;
+    width: 50vw;
     color: white;
     padding-left: 10px;
+    
 }
 
 main .imagemdois {
@@ -95,7 +100,7 @@ main .imagemdois {
 
 .imagemdois > p{
     background-color: rgba(0, 0, 0, 0.637);
-    width: 260px;
+    width: 50vw;
     color: white;
     padding-left: 10px;
 }
